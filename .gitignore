@@ -2,5 +2,5 @@ _site
 _drafts
 
 #SASS
-css
+#css
 .sass-cache
