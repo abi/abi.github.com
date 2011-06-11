@@ -1,2 +1,6 @@
 _site
 _drafts
+
+#SASS
+css
+.sass-cache
