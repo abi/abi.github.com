@@ -6,121 +6,119 @@
 @import "compass/reset"
 
 
-/****************************************************************************
-/*
- */* Home
- */*
- */****************************************************************************
+//Site
+.site
+    font-size: 100%
+    text-align: justify
+    width: 40em
+    margin: 2em auto 2em auto
+  
+.site
+    .title
+        margin-bottom: 3em
+        font-family: Arial, "MS Trebuchet", sans-serif
+    
+    .title a
+        color: #a00
+        text-decoration: none
+        //TODO: Transitions
+        letter-spacing: -2px
+    
+        &:hover
+            color: black
+            //text-shadow: 0.2px 0.2px 2em red
 
-ul.posts
-  list-style-type: none
-  margin-bottom: 2em
-  li
-    line-height: 1.75em
-  span
-    color: #aaa
+    .footer
+        font-size: 80%
+        color: #666
+        border-top: 1px solid #999
+        margin-top: 10em
+        overflow: hidden
+
+    // Social media
+    .sm
+        margin-top: 10px
+        float: right
+        a
+            margin-right: 3px
+        img
+            padding: 0px
+            border: 0px
+            vertical-align: text-top
+            background-color: white
+    
+    .author-info
+        margin-top: 10px
+        float: left
+
+//Home
+.posts
+    margin-bottom: 2em
+    
+    li
+        line-height: 1em
+        margin-bottom: 40px
+
+//standard
+
+//Post (also used in home)
+
+.date
+    margin-bottom: 10px
+    display: block
+    font-size: 0.7em
+    color: #555
     font-family: Monaco, "Courier New", monospace
-    font-size: 80%
 
-/****************************************************************************
-/*
- */* Site
- */*
- */****************************************************************************
-
-.site
-  font-size: 110%
-  text-align: justify
-  width: 40em
-  margin: 2em auto 2em auto
-  line-height: 1.5em
-
-.title
-  color: #a00
-  margin-bottom: 3em
-  font-family: Arial, "MS Trebuchet", sans-serif
-
-.site
-  .title a
-    color: #a00
-    text-decoration: none
-    // text-shadow: 0.2px 0.2px 2em yellow
-    transition: all 1s ease-in-out
-    -webkit-transition: all 0.5s ease-in
-    -moz-transition: all 1s ease-in
-    -o-transition: all 0.5s ease-in
-    transition: all 1s ease-in
-    &:hover
-      color: black
-      text-shadow: 0.2px 0.2px 2em red
-  .footer
-    font-size: 80%
-    color: #666
-    border-top: 4px solid #eee
-    margin-top: 10em
-    overflow: hidden
-    .contact
-      float: left
-      margin-right: 3em
-      a
-        color: #8085C1
-    .rss
-      margin-top: 1.1em
-      margin-right: -0.2em
-      float: right
-      img
-        border: 0
-
-/****************************************************************************
-/*
- */* Posts
- */*
- */****************************************************************************
-
-#post
-
-h1
-  color: black
-
-.sm
-  margin-top: 10px
-  margin-right: 10px
-  a
-    margin-right: 3px
-    border: 1px solid grey
-    padding: 2px
-    padding-top: 5px
-    img
-      padding-top: 5px
-      vertical-align: text-bottom
-
-/* standard
-
-#post
-  pre
-    border: 1px solid #ddd
-    background-color: #eef
-    padding: 0 .4em
-  ul, ol
-    margin-left: 1.35em
-  code
-    border: 1px solid #ddd
-    background-color: #eef
-    font-size: 85%
-    padding: 0 .2em
-  pre
+.permalink
+    font-size: 0.7em
+    text-align: right
+    display: block
+    
+.post
+    line-height: 1.4em
+    color: black
+    
+    h1
+        color: black
+        margin-bottom: 20px
+        font-size: 1.4em
+    
+    p
+        margin-bottom: 20px
+  
+    pre
+        border: 1px solid #ddd
+        background-color: #eef
+        padding: 0 .4em
+    
+    ul, ol
+        margin-left: 1.35em
+  
     code
-      border: none
+        border: 1px solid #ddd
+        background-color: #eef
+        font-family: Monaco, "Courier New", monospace
+        font-size: 0.6em
+        padding: 0 .2em
+        margin: 20 0
+  
+    pre
+        margin-bottom: 20px
+        code
+            border: none
+            margin: 20 0
+    
     &.terminal
-      border: 1px solid black
-      background-color: #333
-      color: white
-      code
+        border: 1px solid black
         background-color: #333
+        color: white
+        code
+            background-color: #333
+            
 
-/* terminal
-
-#related
-  margin-top: 2em
-  h2
-    margin-bottom: 1em
+//Terminal
+// #related
+//     margin-top: 2em
+//     h2
+//         margin-bottom: 1em

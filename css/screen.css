@@ -68,155 +68,135 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/*************************************************************************** */
-/*/* Home
- */*
- */**************************************************************************** */
-/* line 15, ../sass/screen.sass */
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-}
-/* line 18, ../sass/screen.sass */
-ul.posts li {
-  line-height: 1.75em;
-}
-/* line 20, ../sass/screen.sass */
-ul.posts span {
-  color: #aaaaaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
-}
-
-/*************************************************************************** */
-/*/* Site
- */*
- */**************************************************************************** */
-/* line 31, ../sass/screen.sass */
+/* line 10, ../sass/screen.sass */
 .site {
-  font-size: 110%;
+  font-size: 100%;
   text-align: justify;
   width: 40em;
   margin: 2em auto 2em auto;
-  line-height: 1.5em;
 }
 
-/* line 38, ../sass/screen.sass */
-.title {
-  color: #aa0000;
+/* line 17, ../sass/screen.sass */
+.site .title {
   margin-bottom: 3em;
   font-family: Arial, "MS Trebuchet", sans-serif;
 }
-
-/* line 44, ../sass/screen.sass */
+/* line 21, ../sass/screen.sass */
 .site .title a {
   color: #aa0000;
   text-decoration: none;
-  transition: all 1s ease-in-out;
-  -webkit-transition: all 0.5s ease-in;
-  -moz-transition: all 1s ease-in;
-  -o-transition: all 0.5s ease-in;
-  transition: all 1s ease-in;
+  letter-spacing: -2px;
 }
-/* line 53, ../sass/screen.sass */
+/* line 27, ../sass/screen.sass */
 .site .title a:hover {
   color: black;
-  text-shadow: 0.2px 0.2px 2em red;
 }
-/* line 56, ../sass/screen.sass */
+/* line 31, ../sass/screen.sass */
 .site .footer {
   font-size: 80%;
   color: #666666;
-  border-top: 4px solid #eeeeee;
+  border-top: 1px solid #999999;
   margin-top: 10em;
   overflow: hidden;
 }
-/* line 62, ../sass/screen.sass */
-.site .footer .contact {
-  float: left;
-  margin-right: 3em;
-}
-/* line 65, ../sass/screen.sass */
-.site .footer .contact a {
-  color: #8085c1;
-}
-/* line 67, ../sass/screen.sass */
-.site .footer .rss {
-  margin-top: 1.1em;
-  margin-right: -0.2em;
+/* line 39, ../sass/screen.sass */
+.site .sm {
+  margin-top: 10px;
   float: right;
 }
-/* line 71, ../sass/screen.sass */
-.site .footer .rss img {
-  border: 0;
+/* line 42, ../sass/screen.sass */
+.site .sm a {
+  margin-right: 3px;
+}
+/* line 44, ../sass/screen.sass */
+.site .sm img {
+  padding: 0px;
+  border: 0px;
+  vertical-align: text-top;
+  background-color: white;
+}
+/* line 50, ../sass/screen.sass */
+.site .author-info {
+  margin-top: 10px;
+  float: left;
 }
 
-/*************************************************************************** */
-/*/* Posts
- */*
- */**************************************************************************** */
-/* line 82, ../sass/screen.sass */
-h1 {
+/* line 55, ../sass/screen.sass */
+.posts {
+  margin-bottom: 2em;
+}
+/* line 58, ../sass/screen.sass */
+.posts li {
+  line-height: 1em;
+  margin-bottom: 40px;
+}
+
+/* line 66, ../sass/screen.sass */
+.date {
+  margin-bottom: 10px;
+  display: block;
+  font-size: 0.7em;
+  color: #555555;
+  font-family: Monaco, "Courier New", monospace;
+}
+
+/* line 73, ../sass/screen.sass */
+.permalink {
+  font-size: 0.7em;
+  text-align: right;
+  display: block;
+}
+
+/* line 78, ../sass/screen.sass */
+.post {
+  line-height: 1.4em;
   color: black;
 }
-
-/* line 85, ../sass/screen.sass */
-.sm {
-  margin-top: 10px;
-  margin-right: 10px;
+/* line 82, ../sass/screen.sass */
+.post h1 {
+  color: black;
+  margin-bottom: 20px;
+  font-size: 1.4em;
 }
-/* line 88, ../sass/screen.sass */
-.sm a {
-  margin-right: 3px;
-  border: 1px solid grey;
-  padding: 2px;
-  padding-top: 5px;
+/* line 87, ../sass/screen.sass */
+.post p {
+  margin-bottom: 20px;
 }
-/* line 93, ../sass/screen.sass */
-.sm a img {
-  padding-top: 5px;
-  vertical-align: text-bottom;
-}
-
-/* standard */
-/* line 100, ../sass/screen.sass */
-#post pre {
+/* line 90, ../sass/screen.sass */
+.post pre {
   border: 1px solid #dddddd;
   background-color: #eeeeff;
   padding: 0 0.4em;
 }
-/* line 104, ../sass/screen.sass */
-#post ul, #post ol {
+/* line 95, ../sass/screen.sass */
+.post ul, .post ol {
   margin-left: 1.35em;
 }
-/* line 106, ../sass/screen.sass */
-#post code {
+/* line 98, ../sass/screen.sass */
+.post code {
   border: 1px solid #dddddd;
   background-color: #eeeeff;
-  font-size: 85%;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 0.6em;
   padding: 0 0.2em;
+  margin: 20 0;
+}
+/* line 106, ../sass/screen.sass */
+.post pre {
+  margin-bottom: 20px;
+}
+/* line 108, ../sass/screen.sass */
+.post pre code {
+  border: none;
+  margin: 20 0;
 }
 /* line 112, ../sass/screen.sass */
-#post pre code {
-  border: none;
-}
-/* line 114, ../sass/screen.sass */
-#post pre.terminal {
+.post.terminal {
   border: 1px solid black;
   background-color: #333333;
   color: white;
 }
-/* line 118, ../sass/screen.sass */
-#post pre.terminal code {
+/* line 116, ../sass/screen.sass */
+.post.terminal code {
   background-color: #333333;
-}
-
-/* terminal */
-/* line 123, ../sass/screen.sass */
-#related {
-  margin-top: 2em;
-}
-/* line 125, ../sass/screen.sass */
-#related h2 {
-  margin-bottom: 1em;
 }

@@ -6,9 +6,9 @@ title: Abi Raja
 <div id="home">
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> 
-          <div> {{ post.content }} </div>
-          <a href="{{ post.url }}">permalink</a>
+      <li><span class='date'>{{ post.date | date_to_string }}</span> 
+          <div class='post'> {{ post.content }} </div>
+          <a class='permalink' href="{{ post.url }}">permalink</a>
       </li>
     {% endfor %}
   </ul>
