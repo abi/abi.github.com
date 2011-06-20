@@ -200,3 +200,7 @@ footer, header, hgroup, menu, nav, section {
 .post.terminal code {
   background-color: #333333;
 }
+/* line 119, ../sass/screen.sass */
+.post #disqus_thread {
+  margin-top: 40px;
+}
