@@ -78,20 +78,21 @@ footer, header, hgroup, menu, nav, section {
 
 /* line 17, ../sass/screen.sass */
 .site .title {
-  margin-bottom: 3em;
-  font-family: Arial, "MS Trebuchet", sans-serif;
+  margin-bottom: 4em;
 }
-/* line 21, ../sass/screen.sass */
+/* line 20, ../sass/screen.sass */
 .site .title a {
-  color: #aa0000;
+  color: #3399ff;
   text-decoration: none;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
+  font-size: 1.4em;
+  font-family: "Tahoma", "Helvetica";
 }
-/* line 27, ../sass/screen.sass */
+/* line 29, ../sass/screen.sass */
 .site .title a:hover {
   color: black;
 }
-/* line 31, ../sass/screen.sass */
+/* line 33, ../sass/screen.sass */
 .site .footer {
   font-size: 80%;
   color: #666666;
@@ -99,39 +100,39 @@ footer, header, hgroup, menu, nav, section {
   margin-top: 10em;
   overflow: hidden;
 }
-/* line 39, ../sass/screen.sass */
+/* line 41, ../sass/screen.sass */
 .site .sm {
   margin-top: 10px;
   float: right;
 }
-/* line 42, ../sass/screen.sass */
+/* line 44, ../sass/screen.sass */
 .site .sm a {
   margin-right: 3px;
 }
-/* line 44, ../sass/screen.sass */
+/* line 46, ../sass/screen.sass */
 .site .sm img {
   padding: 0px;
   border: 0px;
   vertical-align: text-top;
   background-color: white;
 }
-/* line 50, ../sass/screen.sass */
+/* line 52, ../sass/screen.sass */
 .site .author-info {
   margin-top: 10px;
   float: left;
 }
 
-/* line 55, ../sass/screen.sass */
+/* line 57, ../sass/screen.sass */
 .posts {
   margin-bottom: 2em;
 }
-/* line 58, ../sass/screen.sass */
+/* line 60, ../sass/screen.sass */
 .posts li {
   line-height: 1em;
   margin-bottom: 40px;
 }
 
-/* line 66, ../sass/screen.sass */
+/* line 68, ../sass/screen.sass */
 .date {
   margin-bottom: 10px;
   display: block;
@@ -140,39 +141,39 @@ footer, header, hgroup, menu, nav, section {
   font-family: Monaco, "Courier New", monospace;
 }
 
-/* line 73, ../sass/screen.sass */
+/* line 75, ../sass/screen.sass */
 .permalink {
   font-size: 0.7em;
   text-align: right;
   display: block;
 }
 
-/* line 78, ../sass/screen.sass */
+/* line 80, ../sass/screen.sass */
 .post {
   line-height: 1.4em;
   color: black;
 }
-/* line 82, ../sass/screen.sass */
+/* line 84, ../sass/screen.sass */
 .post h1 {
   color: black;
   margin-bottom: 20px;
   font-size: 1.4em;
 }
-/* line 87, ../sass/screen.sass */
+/* line 89, ../sass/screen.sass */
 .post p {
   margin-bottom: 20px;
 }
-/* line 90, ../sass/screen.sass */
+/* line 92, ../sass/screen.sass */
 .post pre {
   border: 1px solid #dddddd;
   background-color: #eeeeff;
   padding: 0 0.4em;
 }
-/* line 95, ../sass/screen.sass */
+/* line 97, ../sass/screen.sass */
 .post ul, .post ol {
   margin-left: 1.35em;
 }
-/* line 98, ../sass/screen.sass */
+/* line 100, ../sass/screen.sass */
 .post code {
   border: 1px solid #dddddd;
   background-color: #eeeeff;
@@ -181,26 +182,26 @@ footer, header, hgroup, menu, nav, section {
   padding: 0 0.2em;
   margin: 20 0;
 }
-/* line 106, ../sass/screen.sass */
+/* line 108, ../sass/screen.sass */
 .post pre {
   margin-bottom: 20px;
 }
-/* line 108, ../sass/screen.sass */
+/* line 110, ../sass/screen.sass */
 .post pre code {
   border: none;
   margin: 20 0;
 }
-/* line 112, ../sass/screen.sass */
+/* line 114, ../sass/screen.sass */
 .post.terminal {
   border: 1px solid black;
   background-color: #333333;
   color: white;
 }
-/* line 116, ../sass/screen.sass */
+/* line 118, ../sass/screen.sass */
 .post.terminal code {
   background-color: #333333;
 }
-/* line 119, ../sass/screen.sass */
+/* line 121, ../sass/screen.sass */
 .post #disqus_thread {
   margin-top: 60px;
 }
