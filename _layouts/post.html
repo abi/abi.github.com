@@ -2,7 +2,7 @@
 layout: default
 ---
 <div id="post" class="post">
-<div class='date'>{{ page.date | date_to_string }} {{ page.url }}</div>
+<div class='date'>{{ page.date | date_to_string }} </div>
 {{ content }}
 <!-- <div class="tags">{{ page.tags }}</div> -->
 
@@ -13,7 +13,7 @@ layout: default
 
     // The following are highly recommended additional parameters. Remove the slashes in front to use.
     //var disqus_identifier = '{{ page.url }}';
-    //var disqus_url = '{{ page.url }}';
+    var disqus_url = '{{ page.url }}';
     var disqus_identifier = '{{ page.url }}';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
