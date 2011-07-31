@@ -1,16 +1,10 @@
 ---
 layout: post
-title: Brothers Karamazov
+title: The fucking sixties
 tags: code, politics
 ---
 
 {{ page.title }}
 ================
 
-Hi. *ipsum* blah blah dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-
-{% highlight ruby linenos %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
+<iframe style="margin-bottom:30px" width="600" height="373" src="http://www.youtube.com/embed/CNp4p3DZ2Nk" frameborder="0" allowfullscreen></iframe>

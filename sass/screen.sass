@@ -1,57 +1,67 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
 @import "compass/reset"
-
+@import "compass/css3"
 
 //Site
 .site
-    font-size: 100%
     text-align: justify
-    width: 40em
-    margin: 2em auto 2em auto
+    width: 600px
+    margin: 0em auto 2em 80px
   
 .site
     .title
-        margin-bottom: 4em
+        margin-bottom: 100px
     
-    .title a
-        color: #3399FF
-        text-decoration: none
-        //TODO: Transitions
-        letter-spacing: -1px
-        //font-weight: bold
-        font-size: 1.4em
-        font-family: "Tahoma", "Helvetica"
+        .bookmark
+            background: #333
+            width: 100px
+            //padding-top: 60px
+            //padding-bottom: 20px
+            padding: 60px 10px 20px 10px
+            +border-radius(0px, 5px)
+            
+            a
+                color: #66FF99 
+                //#0066CC
+                text-align: center
+                text-decoration: none
+                letter-spacing: 0px
+                //text-transform: uppercase
+                //text-shadow: 1px 1px 0px #CCC
+                font-size: 1.4em
+                font-family: "Dawning of a New Day", cursive
+                //TODO: Transitions
+        
         
         &:hover
             color: black
             //text-shadow: 0.2px 0.2px 2em red
 
     .footer
-        font-size: 80%
+        font-size: 1.1em
+        font-family: "Dawning of a New Day", cursive
         color: #666
         border-top: 1px solid #999
-        margin-top: 10em
+        margin-top: 2px
+        padding-top: 10px
         overflow: hidden
-
-    // Social media
-    .sm
-        margin-top: 10px
-        float: right
-        a
-            margin-right: 3px
-        img
-            padding: 0px
-            border: 0px
-            vertical-align: text-top
-            background-color: white
+        
+        .author-info
+            margin-top: 10px
+            float: left
+            
+        // Social media
+        .sm
+            margin-top: 10px
+            float: right
+            a
+                margin-right: 0px
+            img
+                padding: 0px
+                border: 0px
+                vertical-align: text-top
+                background-color: white
     
-    .author-info
-        margin-top: 10px
-        float: left
+
 
 //Home
 .posts
@@ -65,29 +75,52 @@
 
 //Post (also used in home)
 
+body
+    font-family: "Helvetica Neue", Helvetica
+    font-size: 16px
+
+.date, .permalink
+    font-size: 0.6em
+    
 .date
     margin-bottom: 10px
     display: block
-    font-size: 0.7em
+    font-size: 0.6em
     color: #555
-    font-family: Monaco, "Courier New", monospace
+    text-transform: uppercase
 
 .permalink
-    font-size: 0.7em
-    text-align: right
     display: block
+    text-align: right
+    font-size: 0.5em
+    letter-spacing: 1px
+    text-decoration: none
+    
+    text-transform: uppercase
+    
+    &:visited
+        color: #333
+        text-decoration: none
+        padding-bottom: 8px
+        border-bottom: 0.2px solid #333
+    
     
 .post
-    line-height: 1.4em
     color: black
+    font-size: 14px
+    line-height: 1.4em
     
     h1
         color: black
-        margin-bottom: 20px
-        font-size: 1.4em
-    
+        margin-bottom: 34px
+        font-size: 24px
+        font-family: 'Muli', sans-serif
+        line-height: 1.3em
+        letter-spacing: -1px
+        
     p
         margin-bottom: 20px
+
   
     pre
         border: 1px solid #ddd
@@ -101,9 +134,10 @@
         border: 1px solid #ddd
         background-color: #eef
         font-family: Monaco, "Courier New", monospace
-        font-size: 0.6em
+        font-size: 11px
         padding: 0 .2em
         margin: 20 0
+        line-height: 1em
   
     pre
         margin-bottom: 20px

@@ -1,7 +1,3 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 17, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -68,140 +64,180 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 10, ../sass/screen.sass */
+/* line 5, ../sass/screen.sass */
 .site {
-  font-size: 100%;
   text-align: justify;
-  width: 40em;
-  margin: 2em auto 2em auto;
+  width: 600px;
+  margin: 0em auto 2em 80px;
 }
 
-/* line 17, ../sass/screen.sass */
+/* line 11, ../sass/screen.sass */
 .site .title {
-  margin-bottom: 4em;
+  margin-bottom: 100px;
 }
-/* line 20, ../sass/screen.sass */
-.site .title a {
-  color: #3399ff;
+/* line 14, ../sass/screen.sass */
+.site .title .bookmark {
+  background: #333333;
+  width: 100px;
+  padding: 60px 10px 20px 10px;
+  -webkit-border-radius: 0px 5px;
+  -moz-border-radius: 0px / 5px;
+  -o-border-radius: 0px / 5px;
+  -ms-border-radius: 0px / 5px;
+  -khtml-border-radius: 0px / 5px;
+  border-radius: 0px / 5px;
+}
+/* line 22, ../sass/screen.sass */
+.site .title .bookmark a {
+  color: #66ff99;
+  text-align: center;
   text-decoration: none;
-  letter-spacing: -1px;
+  letter-spacing: 0px;
   font-size: 1.4em;
-  font-family: "Tahoma", "Helvetica";
+  font-family: "Dawning of a New Day", cursive;
 }
-/* line 29, ../sass/screen.sass */
-.site .title a:hover {
+/* line 35, ../sass/screen.sass */
+.site .title:hover {
   color: black;
 }
-/* line 33, ../sass/screen.sass */
+/* line 39, ../sass/screen.sass */
 .site .footer {
-  font-size: 80%;
+  font-size: 1.1em;
+  font-family: "Dawning of a New Day", cursive;
   color: #666666;
   border-top: 1px solid #999999;
-  margin-top: 10em;
+  margin-top: 2px;
+  padding-top: 10px;
   overflow: hidden;
 }
-/* line 41, ../sass/screen.sass */
-.site .sm {
+/* line 48, ../sass/screen.sass */
+.site .footer .author-info {
+  margin-top: 10px;
+  float: left;
+}
+/* line 53, ../sass/screen.sass */
+.site .footer .sm {
   margin-top: 10px;
   float: right;
 }
-/* line 44, ../sass/screen.sass */
-.site .sm a {
-  margin-right: 3px;
+/* line 56, ../sass/screen.sass */
+.site .footer .sm a {
+  margin-right: 0px;
 }
-/* line 46, ../sass/screen.sass */
-.site .sm img {
+/* line 58, ../sass/screen.sass */
+.site .footer .sm img {
   padding: 0px;
   border: 0px;
   vertical-align: text-top;
   background-color: white;
 }
-/* line 52, ../sass/screen.sass */
-.site .author-info {
-  margin-top: 10px;
-  float: left;
-}
 
-/* line 57, ../sass/screen.sass */
+/* line 67, ../sass/screen.sass */
 .posts {
   margin-bottom: 2em;
 }
-/* line 60, ../sass/screen.sass */
+/* line 70, ../sass/screen.sass */
 .posts li {
   line-height: 1em;
   margin-bottom: 40px;
 }
 
-/* line 68, ../sass/screen.sass */
+/* line 78, ../sass/screen.sass */
+body {
+  font-family: "Helvetica Neue", Helvetica;
+  font-size: 16px;
+}
+
+/* line 82, ../sass/screen.sass */
+.date, .permalink {
+  font-size: 0.6em;
+}
+
+/* line 85, ../sass/screen.sass */
 .date {
   margin-bottom: 10px;
   display: block;
-  font-size: 0.7em;
+  font-size: 0.6em;
   color: #555555;
-  font-family: Monaco, "Courier New", monospace;
+  text-transform: uppercase;
 }
 
-/* line 75, ../sass/screen.sass */
+/* line 92, ../sass/screen.sass */
 .permalink {
-  font-size: 0.7em;
-  text-align: right;
   display: block;
+  text-align: right;
+  font-size: 0.5em;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* line 101, ../sass/screen.sass */
+.permalink:visited {
+  color: #333333;
+  text-decoration: none;
+  padding-bottom: 8px;
+  border-bottom: 0.2px solid #333333;
 }
 
-/* line 80, ../sass/screen.sass */
+/* line 108, ../sass/screen.sass */
 .post {
-  line-height: 1.4em;
   color: black;
+  font-size: 14px;
+  line-height: 1.4em;
 }
-/* line 84, ../sass/screen.sass */
+/* line 113, ../sass/screen.sass */
 .post h1 {
   color: black;
-  margin-bottom: 20px;
-  font-size: 1.4em;
+  margin-bottom: 34px;
+  font-size: 24px;
+  font-family: "Muli", sans-serif;
+  line-height: 1.3em;
+  letter-spacing: -1px;
 }
-/* line 89, ../sass/screen.sass */
+/* line 121, ../sass/screen.sass */
 .post p {
   margin-bottom: 20px;
 }
-/* line 92, ../sass/screen.sass */
+/* line 125, ../sass/screen.sass */
 .post pre {
   border: 1px solid #dddddd;
   background-color: #eeeeff;
   padding: 0 0.4em;
 }
-/* line 97, ../sass/screen.sass */
+/* line 130, ../sass/screen.sass */
 .post ul, .post ol {
   margin-left: 1.35em;
 }
-/* line 100, ../sass/screen.sass */
+/* line 133, ../sass/screen.sass */
 .post code {
   border: 1px solid #dddddd;
   background-color: #eeeeff;
   font-family: Monaco, "Courier New", monospace;
-  font-size: 0.6em;
+  font-size: 11px;
   padding: 0 0.2em;
   margin: 20 0;
+  line-height: 1em;
 }
-/* line 108, ../sass/screen.sass */
+/* line 142, ../sass/screen.sass */
 .post pre {
   margin-bottom: 20px;
 }
-/* line 110, ../sass/screen.sass */
+/* line 144, ../sass/screen.sass */
 .post pre code {
   border: none;
   margin: 20 0;
 }
-/* line 114, ../sass/screen.sass */
+/* line 148, ../sass/screen.sass */
 .post.terminal {
   border: 1px solid black;
   background-color: #333333;
   color: white;
 }
-/* line 118, ../sass/screen.sass */
+/* line 152, ../sass/screen.sass */
 .post.terminal code {
   background-color: #333333;
 }
-/* line 121, ../sass/screen.sass */
+/* line 155, ../sass/screen.sass */
 .post #disqus_thread {
   margin-top: 60px;
 }
