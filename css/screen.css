@@ -199,16 +199,20 @@ body {
   margin-bottom: 20px;
 }
 /* line 125, ../sass/screen.sass */
+.post em {
+  font-style: italic;
+}
+/* line 129, ../sass/screen.sass */
 .post pre {
   border: 1px solid #dddddd;
   background-color: #eeeeff;
   padding: 0 0.4em;
 }
-/* line 130, ../sass/screen.sass */
+/* line 134, ../sass/screen.sass */
 .post ul, .post ol {
   margin-left: 1.35em;
 }
-/* line 133, ../sass/screen.sass */
+/* line 137, ../sass/screen.sass */
 .post code {
   border: 1px solid #dddddd;
   background-color: #eeeeff;
@@ -218,26 +222,26 @@ body {
   margin: 20 0;
   line-height: 1em;
 }
-/* line 142, ../sass/screen.sass */
+/* line 146, ../sass/screen.sass */
 .post pre {
   margin-bottom: 20px;
 }
-/* line 144, ../sass/screen.sass */
+/* line 148, ../sass/screen.sass */
 .post pre code {
   border: none;
   margin: 20 0;
 }
-/* line 148, ../sass/screen.sass */
+/* line 152, ../sass/screen.sass */
 .post.terminal {
   border: 1px solid black;
   background-color: #333333;
   color: white;
 }
-/* line 152, ../sass/screen.sass */
+/* line 156, ../sass/screen.sass */
 .post.terminal code {
   background-color: #333333;
 }
-/* line 155, ../sass/screen.sass */
+/* line 159, ../sass/screen.sass */
 .post #disqus_thread {
   margin-top: 60px;
 }

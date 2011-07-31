@@ -1,65 +1,67 @@
 ---
 layout: post
-title: Pixelated lives
+title: Wasted hours
 ---
 
 {{ page.title }}
 ================
 
-<div style="font-style:italic">
-*We'll end up numb from playing video games  
-and we'll get sick of having sex.  
-And we'll get fat from eating candy    
-as we drink ourselves to death.  
-We'll stay up late  
-making mix tapes,photoshoping pictures of ourselves
-while we masturbate to these pixelated videos
-of strangers fucking themselves.
+<div>
+We'll end up numb from playing video games  <br/>
+and we'll get sick of having sex. <br/>
+And we'll get fat from eating candy <br/> 
+as we drink ourselves to death.  <br/> <br/>
 
-We are very busy people,
-We are very busy people.
+We'll stay up late  <br/>
+making mix tapes, photoshoping pictures of ourselves <br/>
+while we masturbate to these pixelated videos <br/>
+of strangers fucking themselves. <br/> <br/>
 
-There's crusty socks
-and stacks of pizza boxes
-making trails straight to the bed.
-And when we're done sleeping
-we'll stay busy dreaming of the things
-we don't have yet.
-Well there's a long, long list of chores
-and shit to do before we play, 
-oh let's just piss away the day.(piss away the day)
-Crank call the cops down at the station,
-just for friendly conversation,
-requesting songs they never play;
-Let's hear the one that goes like:
+We are very busy people, <br/>
+We are very busy people. <br/><br/>
 
-We are very busy people,
-We are very busy people;
-But we've always got time for new friends.
+There's crusty socks <br/>
+and stacks of pizza boxes <br/>
+making trails straight to the bed. <br/>
+And when we're done sleeping <br/>
+we'll stay busy dreaming of the things <br/>
+we don't have yet. <br/>
+Well there's a long, long list of chores <br/>
+and shit to do before we play, <br/>
+oh let's just piss away the day.(piss away the day) <br/>
+Crank call the cops down at the station, <br/>
+just for friendly conversation, <br/>
+requesting songs they never play; <br/>
+Let's hear the one that goes like: <br/><br/>
 
-So come on over and knock on our door,
-it's open whatchu waitin' for?
-We might be sprawled out on the floor,
-but we still make lovely company.
-Pull up a chair, I'll pour some tea,
-We'll shoot the shit, 'bout everything,
-till you get sick of politics,
-and flip on the TV screen,
-we stare at the TV screen.
-That Donnie Darko DVD has been repeating for a week,
-and we know every single word.
-(Every single word).
-I've got an iPod like a pirate ship,
-I'll sail the seas
-with fifty thousand songs I've never heard-
-And all the best of them go
-Fa la la la la la...
-Fa la la la la la...
+We are very busy people,<br/>
+We are very busy people;<br/>
+But we've always got time for new friends.<br/><br/>
 
-We are very busy people,
-We are very busy people;
-But we've always got time for new friends.
-Yeah.
-Fa la la la la la...
-Fa la la la la la... 
+So come on over and knock on our door,<br/>
+it's open whatchu waitin' for?<br/>
+We might be sprawled out on the floor,<br/>
+but we still make lovely company.<br/>
+Pull up a chair, I'll pour some tea,<br/>
+We'll shoot the shit, 'bout everything,<br/>
+till you get sick of politics,<br/>
+and flip on the TV screen,<br/>
+we stare at the TV screen.<br/><br/>
+
+That Donnie Darko DVD has been repeating for a week,<br/>
+and we know every single word.<br/>
+(Every single word).<br/>
+I've got an iPod like a pirate ship,<br/>
+I'll sail the seas<br/>
+with fifty thousand songs I've never heard-<br/>
+And all the best of them go<br/>
+Fa la la la la la...<br/>
+Fa la la la la la...<br/><br/>
+
+We are very busy people,<br/>
+We are very busy people;<br/>
+But we've always got time for new friends.<br/>
+Yeah.<br/>
+Fa la la la la la...<br/>
+Fa la la la la la... <br/><br/>
 </div>
