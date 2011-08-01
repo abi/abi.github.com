@@ -7,8 +7,8 @@ tags: code, politics
 {{ page.title }}
 ================
 
-After a while, it's time to blog again. It's 2011 and blogging is no longer blogging. Facebook isn't a website anymore.
-Our lives and the web are all mixed together. Life offline and online has merged.
+After a long hiatus, time to blog again. It's 2011 and blogging is no longer blogging. Facebook isn't just a website anymore.
+Our lives and the web are all mixed together. Offline and online are one.
 
 We are our thoughts.
 
