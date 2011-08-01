@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wasted hours
+title: Our World
 ---
 
 {{ page.title }}

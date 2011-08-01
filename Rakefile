@@ -2,8 +2,7 @@
 PORT = 4000
 
 task :run do
-	system	'jekyll --server --auto'
-	#compass watch .
+	exec 'bash tools/run.bash'
 end
 
 task :open do
