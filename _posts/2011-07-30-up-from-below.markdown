@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Up from below
-tags: code, politics
+comments: none
 ---
 
 

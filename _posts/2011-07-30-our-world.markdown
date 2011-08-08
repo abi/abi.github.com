@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Our World
+comments: none
+
 ---
 
 {{ page.title }}

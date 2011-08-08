@@ -8,8 +8,11 @@ title: Abi Raja
     {% for post in site.posts %}
       <li><span class='date'>{{ post.date | date_to_string }}</span> 
           <div class='post'> {{ post.content }} </div>
-          <a class='permalink' href="{{ post.url }}#disqus_thread"
-             data-disqus-identifier="{{ post.url }}">permalink</a>
+          {% if post.comments != 'none' %}
+          <a class='permalink' href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}">permalink</a>
+          {% else %}
+            <a class='permalink' href="{{ post.url }}">permalink</a>
+          {% endif %}
       </li>
     {% endfor %}
   </ul>

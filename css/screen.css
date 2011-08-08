@@ -242,6 +242,11 @@ body {
   background-color: #333333;
 }
 /* line 159, ../sass/screen.sass */
-.post #disqus_thread {
+.post #disqus_thread, .post #no-comments {
   margin-top: 60px;
+}
+/* line 162, ../sass/screen.sass */
+.post #no-comments {
+  padding: 30px;
+  height: 1px;
 }

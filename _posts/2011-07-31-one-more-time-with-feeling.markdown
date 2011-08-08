@@ -2,6 +2,7 @@
 layout: post
 title: One more time with feeling
 tags: code, politics
+comments: none
 ---
 
 {{ page.title }}
