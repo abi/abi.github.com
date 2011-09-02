@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Our World
+title: World
 comments: none
 
 ---
