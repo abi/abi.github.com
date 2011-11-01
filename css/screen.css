@@ -231,17 +231,21 @@ body {
 .post em {
   font-style: italic;
 }
-/* line 148, ../sass/screen.sass */
+/* line 147, ../sass/screen.sass */
+.post strong {
+  font-weight: bold;
+}
+/* line 150, ../sass/screen.sass */
 .post pre {
   border: 1px solid #dddddd;
   background-color: #eeeeff;
   padding: 0 0.4em;
 }
-/* line 153, ../sass/screen.sass */
+/* line 155, ../sass/screen.sass */
 .post ul, .post ol {
   margin-left: 1.35em;
 }
-/* line 156, ../sass/screen.sass */
+/* line 158, ../sass/screen.sass */
 .post code {
   border: 1px solid #dddddd;
   background-color: #eeeeff;
@@ -251,30 +255,30 @@ body {
   margin: 20 0;
   line-height: 1em;
 }
-/* line 165, ../sass/screen.sass */
+/* line 167, ../sass/screen.sass */
 .post pre {
   margin-bottom: 20px;
 }
-/* line 167, ../sass/screen.sass */
+/* line 169, ../sass/screen.sass */
 .post pre code {
   border: none;
   margin: 20 0;
 }
-/* line 171, ../sass/screen.sass */
+/* line 173, ../sass/screen.sass */
 .post.terminal {
   border: 1px solid black;
   background-color: #333333;
   color: white;
 }
-/* line 175, ../sass/screen.sass */
+/* line 177, ../sass/screen.sass */
 .post.terminal code {
   background-color: #333333;
 }
-/* line 178, ../sass/screen.sass */
+/* line 180, ../sass/screen.sass */
 .post #disqus_thread, .post #no-comments {
   margin-top: 60px;
 }
-/* line 181, ../sass/screen.sass */
+/* line 183, ../sass/screen.sass */
 .post #no-comments {
   padding: 30px;
   height: 1px;
