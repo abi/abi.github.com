@@ -40,7 +40,7 @@ Let's say you write a sort function called `sort`. Rather than write traditional
 
 You could write 
 
-```haskell
+```ruby
 (sort x) == (quicksort x)
 ```
 
@@ -48,7 +48,7 @@ And QuickCheck will run through a 100 hundred test cases that it auto-generated 
 
 Or if you don't have a reference implementation to compare with, you can express the property directly. What it means to say that a list is sorted is that every element in that list is either equal to or smaller than the next element.
 
-```haskell
+```Haskell
 and $ map (\x -> fst x < snd x) $ zip a (tail a)
 ```
 
