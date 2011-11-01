@@ -34,23 +34,23 @@ Besides increased abstraction capability, when you use algebraic structures, you
 
 Let's say you write a sort function called `sort`. Rather than write traditional unit-tests (where you'd only be testing a small subset of cases) like:
 
-```haskell
+{% highlight haskell %}
 (sort [4, 2, 3]) == [2, 3, 4]
-```
+{% endhighlight %}
 
 You could write 
 
-```ruby
+{% highlight haskell %}
 (sort x) == (quicksort x)
-```
+{% endhighlight %}
 
 And QuickCheck will run through a 100 hundred test cases that it auto-generated including edge cases like empty lists and lists with non-unique elements.
 
 Or if you don't have a reference implementation to compare with, you can express the property directly. What it means to say that a list is sorted is that every element in that list is either equal to or smaller than the next element.
 
-```Haskell
+{% highlight haskell %}
 and $ map (\x -> fst x < snd x) $ zip a (tail a)
-```
+{% endhighlight %}
 
 QuickCheck also does a few other things that are really cool. Check it out.
 
