@@ -259,6 +259,11 @@ body {
   margin-bottom: 10px;
 }
 /* line 167, ../sass/screen.sass */
+.post blockquote {
+  margin-left: 30px;
+  font-style: italic;
+}
+/* line 171, ../sass/screen.sass */
 .post code {
   border: 1px solid #dddddd;
   background-color: #eeeeff;
@@ -268,44 +273,63 @@ body {
   margin: 20 0;
   line-height: 1em;
 }
-/* line 176, ../sass/screen.sass */
+/* line 180, ../sass/screen.sass */
 .post pre {
   margin-bottom: 20px;
 }
-/* line 178, ../sass/screen.sass */
+/* line 182, ../sass/screen.sass */
 .post pre code {
   border: none;
   margin: 20 0;
 }
-/* line 182, ../sass/screen.sass */
+/* line 186, ../sass/screen.sass */
 .post.terminal {
   border: 1px solid black;
   background-color: #333333;
   color: white;
 }
-/* line 186, ../sass/screen.sass */
+/* line 190, ../sass/screen.sass */
 .post.terminal code {
   background-color: #333333;
 }
-/* line 189, ../sass/screen.sass */
+/* line 193, ../sass/screen.sass */
 .post #disqus_thread, .post #no-comments {
   margin-top: 60px;
 }
-/* line 192, ../sass/screen.sass */
+/* line 196, ../sass/screen.sass */
 .post #no-comments {
   padding: 30px;
   height: 1px;
 }
 
-/* line 199, ../sass/screen.sass */
+/* line 203, ../sass/screen.sass */
 .mix-img-container {
   text-align: center;
   margin: 50px 0px 40px 0px;
 }
 
-/* line 203, ../sass/screen.sass */
+/* line 207, ../sass/screen.sass */
 .mix-img {
   border: 1px solid black;
   padding: 0px;
   width: 200px;
+}
+
+/* line 214, ../sass/screen.sass */
+.link-post-container {
+  margin-top: 30px;
+  display: block;
+}
+
+/* line 218, ../sass/screen.sass */
+.link-post {
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
+/* line 225, ../sass/screen.sass */
+.link-post:visited {
+  color: black;
 }
