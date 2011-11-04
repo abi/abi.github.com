@@ -4,3 +4,14 @@ _drafts
 #SASS
 #css
 .sass-cache
+
+#Emacs
+
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
