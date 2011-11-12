@@ -302,26 +302,26 @@ body {
   height: 1px;
 }
 
-/* line 203, ../sass/screen.sass */
+/* line 205, ../sass/screen.sass */
 .mix-img-container {
   text-align: center;
   margin: 50px 0px 40px 0px;
 }
 
-/* line 207, ../sass/screen.sass */
+/* line 209, ../sass/screen.sass */
 .mix-img {
   border: 1px solid black;
   padding: 0px;
   width: 200px;
 }
 
-/* line 214, ../sass/screen.sass */
+/* line 218, ../sass/screen.sass */
 .link-post-container {
   margin-top: 30px;
   display: block;
 }
 
-/* line 218, ../sass/screen.sass */
+/* line 222, ../sass/screen.sass */
 .link-post {
   font-weight: bold;
   font-size: 18px;
@@ -329,7 +329,12 @@ body {
   border-bottom: 1px solid black;
 }
 
-/* line 225, ../sass/screen.sass */
+/* line 229, ../sass/screen.sass */
 .link-post:visited {
   color: black;
+}
+
+/* line 233, ../sass/screen.sass */
+.poem {
+  font-style: italic;
 }
