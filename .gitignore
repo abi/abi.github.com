@@ -16,3 +16,5 @@ _trash
 auto-save-list
 tramp
 .\#*
+
+.DS_Store

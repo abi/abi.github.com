@@ -198,6 +198,7 @@ body {
   font-size: 0.5em;
   letter-spacing: 1px;
   text-decoration: none;
+  color: #666666;
   text-transform: uppercase;
 }
 /* line 120, ../sass/screen.sass */
@@ -208,13 +209,18 @@ body {
   border-bottom: 0.2px solid #333333;
 }
 
-/* line 127, ../sass/screen.sass */
+/* line 126, ../sass/screen.sass */
+a {
+  color: #333333;
+}
+
+/* line 132, ../sass/screen.sass */
 .post {
   color: black;
   font-size: 14px;
   line-height: 1.4em;
 }
-/* line 132, ../sass/screen.sass */
+/* line 137, ../sass/screen.sass */
 .post h1 {
   color: black;
   margin-bottom: 34px;
@@ -223,47 +229,47 @@ body {
   line-height: 1.3em;
   letter-spacing: -1px;
 }
-/* line 140, ../sass/screen.sass */
+/* line 145, ../sass/screen.sass */
 .post p {
   margin-bottom: 20px;
 }
-/* line 144, ../sass/screen.sass */
+/* line 149, ../sass/screen.sass */
 .post em {
   font-style: italic;
 }
-/* line 147, ../sass/screen.sass */
+/* line 152, ../sass/screen.sass */
 .post strong {
   font-weight: bold;
 }
-/* line 150, ../sass/screen.sass */
+/* line 155, ../sass/screen.sass */
 .post pre {
   border: 1px solid #dddddd;
   background-color: #eeeeff;
   padding: 0 0.4em;
 }
-/* line 155, ../sass/screen.sass */
+/* line 160, ../sass/screen.sass */
 .post ul, .post ol {
   margin-left: 35px;
 }
-/* line 158, ../sass/screen.sass */
+/* line 163, ../sass/screen.sass */
 .post ul {
   list-style-type: disc;
 }
-/* line 160, ../sass/screen.sass */
+/* line 165, ../sass/screen.sass */
 .post ol {
   list-style-type: decimal;
 }
-/* line 163, ../sass/screen.sass */
+/* line 168, ../sass/screen.sass */
 .post li {
   line-height: 10px;
   margin-bottom: 10px;
 }
-/* line 167, ../sass/screen.sass */
+/* line 172, ../sass/screen.sass */
 .post blockquote {
   margin-left: 30px;
   font-style: italic;
 }
-/* line 171, ../sass/screen.sass */
+/* line 176, ../sass/screen.sass */
 .post code {
   border: 1px solid #dddddd;
   background-color: #eeeeff;
@@ -273,68 +279,71 @@ body {
   margin: 20 0;
   line-height: 1em;
 }
-/* line 180, ../sass/screen.sass */
+/* line 185, ../sass/screen.sass */
 .post pre {
   margin-bottom: 20px;
 }
-/* line 182, ../sass/screen.sass */
+/* line 187, ../sass/screen.sass */
 .post pre code {
   border: none;
   margin: 20 0;
 }
-/* line 186, ../sass/screen.sass */
+/* line 191, ../sass/screen.sass */
 .post.terminal {
   border: 1px solid black;
   background-color: #333333;
   color: white;
 }
-/* line 190, ../sass/screen.sass */
+/* line 195, ../sass/screen.sass */
 .post.terminal code {
   background-color: #333333;
 }
-/* line 193, ../sass/screen.sass */
+/* line 198, ../sass/screen.sass */
 .post #disqus_thread, .post #no-comments {
   margin-top: 60px;
 }
-/* line 196, ../sass/screen.sass */
+/* line 201, ../sass/screen.sass */
 .post #no-comments {
   padding: 30px;
   height: 1px;
 }
 
-/* line 205, ../sass/screen.sass */
+/* line 210, ../sass/screen.sass */
 .mix-img-container {
   text-align: center;
   margin: 50px 0px 40px 0px;
 }
 
-/* line 209, ../sass/screen.sass */
+/* line 214, ../sass/screen.sass */
 .mix-img {
   border: 1px solid black;
   padding: 0px;
   width: 200px;
 }
 
-/* line 218, ../sass/screen.sass */
+/* line 223, ../sass/screen.sass */
 .link-post-container {
   margin-top: 30px;
   display: block;
 }
 
-/* line 222, ../sass/screen.sass */
+/* line 227, ../sass/screen.sass */
 .link-post {
   font-weight: bold;
   font-size: 18px;
+  padding-bottom: 2px;
   text-decoration: none;
-  border-bottom: 1px solid black;
-}
-
-/* line 229, ../sass/screen.sass */
-.link-post:visited {
+  border-bottom: 2px solid black;
   color: black;
 }
 
-/* line 233, ../sass/screen.sass */
+/* line 235, ../sass/screen.sass */
+.link-post:visited {
+  color: #333333;
+  border-bottom-color: #333333;
+}
+
+/* line 240, ../sass/screen.sass */
 .poem {
-  font-style: italic;
+  font-style: italiclic;
 }

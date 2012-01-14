@@ -5,7 +5,7 @@ comments: none
 
 ---
 
-<a href="http://www.newyorker.com/online/blogs/backissues/2011/08/haruki-murakami-and-individualism.html?printable=true&currentPage=all" class="link-post">Murakami and Individualism</a>
+<h1><a href="http://www.newyorker.com/online/blogs/backissues/2011/08/haruki-murakami-and-individualism.html?printable=true&currentPage=all" class="link-post">Murakami and Individualism</a></h1>
 
 One of my favorite writer's obsession with America from afar.
 

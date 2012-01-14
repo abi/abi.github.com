@@ -2,6 +2,7 @@
 layout: post
 title: October Songs
 comments: none
+tags: monthly-mix
 
 ---
 
