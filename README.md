@@ -6,6 +6,8 @@ Installation:
 sudo gem install rdiscount jekyll
 sudo pip install pygments
 
+sudo gem install compass
+
 ```
 
 Resources:
@@ -27,4 +29,8 @@ Jeykll Watcher:
 jekyll --server --auto
 ```
 
+And go to http://localhost:4000/
 
+Also,
+
+In site, to compile CSS, `rake run` or `rake open`.
