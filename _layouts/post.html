@@ -2,11 +2,12 @@
 layout: default
 ---
 <div id="post" class="post">
-<div class='date'>{{ page.date | date_to_string }} </div>
 {{ content }}
+<div class='date'>{{ page.date | date_to_string }} </div>
+
 <!-- <div class="tags">{{ page.tags }}</div> -->
 
-{% if page.comments == 'none' %}
+<!-- {% if page.comments == 'none' %}
 
 <div id='no-comments'></div>
 
@@ -30,6 +31,7 @@ layout: default
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<!-- <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a> -->
 </div>
-{% endif %}
+{% endif %} -->
+
+<!-- <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a> -->
