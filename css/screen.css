@@ -298,7 +298,6 @@ a {
 /* line 217, ../sass/screen.sass */
 .post blockquote {
   margin-left: 30px;
-  font-style: italic;
 }
 /* line 221, ../sass/screen.sass */
 .post code {
@@ -330,35 +329,39 @@ a {
   background-color: #333333;
 }
 /* line 243, ../sass/screen.sass */
+.post .convo {
+  margin-left: 30px;
+}
+/* line 246, ../sass/screen.sass */
 .post #disqus_thread, .post #no-comments {
   margin-top: 60px;
 }
-/* line 246, ../sass/screen.sass */
+/* line 249, ../sass/screen.sass */
 .post #no-comments {
   padding: 30px;
   height: 1px;
 }
 
-/* line 255, ../sass/screen.sass */
+/* line 258, ../sass/screen.sass */
 .mix-img-container {
   text-align: center;
   margin: 50px 0px 40px 0px;
 }
 
-/* line 259, ../sass/screen.sass */
+/* line 262, ../sass/screen.sass */
 .mix-img {
   border: 1px solid black;
   padding: 0px;
   width: 200px;
 }
 
-/* line 268, ../sass/screen.sass */
+/* line 271, ../sass/screen.sass */
 .link-post-container {
   margin-top: 30px;
   display: block;
 }
 
-/* line 272, ../sass/screen.sass */
+/* line 275, ../sass/screen.sass */
 .link-post {
   font-weight: bold;
   font-size: 18px;
@@ -368,13 +371,13 @@ a {
   color: black;
 }
 
-/* line 280, ../sass/screen.sass */
+/* line 283, ../sass/screen.sass */
 .link-post:visited {
   color: #333333;
   border-bottom-color: #333333;
 }
 
-/* line 285, ../sass/screen.sass */
+/* line 288, ../sass/screen.sass */
 .poem {
   font-style: italiclic;
 }
