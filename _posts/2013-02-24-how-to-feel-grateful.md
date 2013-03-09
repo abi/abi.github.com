@@ -28,13 +28,13 @@ If I did not have $60,000 worth of loans, and if I was a U.S. citizen, I would b
 
 I have it good, but not nearly as good as Obama's daughter or Larry Page's son or the sons and daughters of everyone rich and powerful. I still have to work. They don't. This last realization, despite being obvious, is not trivial. A question many people have dealt with at some point or other in their life is whether they have to spend their life constantly feeling grateful for everything. How do you even express constant gratitude? On this topic, Aaron Swartz's essay, <em>[Life in a World of Pervasive Immorality](http://www.aaronsw.com/weblog/immoral)</em>, is a really good read. 
 
-Let us suppose you are a soon-to-be-college-graduate who is not arrogant (I hear there are a lot of entitled Ivy League pricks out there; this shouldn't concern them). I beleive you ought to feel grateful.
+Let us suppose you are a soon-to-be-college-graduate who is not arrogant (I hear there are a lot of entitled Ivy League pricks out there; this shouldn't concern them). I believe you ought to feel grateful.
 
 But, gratitude for what? Towards whom?
 
 Gratitude should be directed to all those people who helped you become who you are: parents, friends, teachers, mentors, etc. And all those other people who went and above beyond what they were expected to do in order to help you.
 
-For everyone who has a shittier job than you do, for everyone who was born into squalor and did not have the oppurtunities you did, for everyone that's lower down the food chain than you (and there are billions of these people!), gratitude is not quite the right emotion. I can't find a word for it, but it's something like "I truly appreciate that I have it good, and I beleive that you guys should have everything I have too". Perhaps also, "I *feel* you (as much as I can from my position)".
+For everyone who has a shittier job than you do, for everyone who was born into squalor and did not have the oppurtunities you did, for everyone that's lower down the food chain than you (and there are billions of these people!), gratitude is not quite the right emotion. I can't find a word for it, but it's something like "I truly appreciate that I have it good, and I believe that you guys should have everything I have too". Perhaps also, "I *feel* you (as much as I can from my position)".
 
 Self-interest, and exclusively self-interest, is the right attitude (at least, under professional circumstances) towards those higher up the food chain than you, which includes your employers. When you receive a job offer, and you think "That's good enough" or "I'm probably asking for more than I'm worth" or "I'm being greedy!", <strong>you have already been exploited</strong>. The people paying your salary are not doing out of the goodness of their heart. They are doing it so they can become richer. In particular, so they can become orders of magnitude richer than you.
 
