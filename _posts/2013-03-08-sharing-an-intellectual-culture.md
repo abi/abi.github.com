@@ -38,7 +38,7 @@ And that got me really excited, because I've been thinking about "high informati
 
 Next time someone talks about not being able to internatilize some good advice, I'd have so much to say. If Grant wrote a blogpost about this or if I did, I could simply talk about it for a little while and then, point to his blogpost.
 
-*"Oh, look this is another high information density article!"*
+*"Oh, look! Another high information density article!"*
 
 Ideas are hugely important; having the right idea in your head really changes the way you think about the world. Here's an idea about ideas: Think of them as lenses, and everytime you hear a new idea, it's as if you have been gifted with a new lens unlike any you had before. Maybe it's a different color, or it turns the world upside down or it superimposes fractals on every green thing. Take this lens and keep it safely in your precious box of lenses. And just by doing that, you've added a whole new, exciting way to view the world. Now imagine, If we all shared our lens boxes with one another, we'd have all the best lenses! And so many more ways to view the world.
 
