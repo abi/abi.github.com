@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Code Weakly {1}
+title: Code Chronicles {1}
 
 ---
 
@@ -31,24 +31,22 @@ Bower is clearly immature. I had to setup some custom Bower repositories in orde
 
 In order to make a JavaScript program really reliable, `window.onerror` is incredibly useful.
 
-```
-function uncaughtExceptionHandler(message, url, line) {  
-  alert(message)  
-}  
-window.onerror = uncaughtExceptionHandler  
-```
+    function uncaughtExceptionHandler(message, url, line) {  
+      alert(message)  
+    }  
+    window.onerror = uncaughtExceptionHandler  
+
 
 Unfortunately, you can't get the original `Error` object that triggered the exception because apparently, window.onerror gets run in a different context.
 
 Here's another useful snippet for posterity (I'm too used to using `$.ajax`).
 
-```
-function XHRPost(url, data){
-  var req = new XMLHttpRequest()
-  req.open('POST', url)
-  req.send(JSON.stringify(data))
-}
-```
+    function XHRPost(url, data){
+      var req = new XMLHttpRequest()
+      req.open('POST', url)
+      req.send(JSON.stringify(data))
+    }
+
 
 Mocha is a really great test runner. I've been using it with chai.js (would like to use it with should.js but there's node-specific code in should.js and I'm running tests in a browser). Other cool modules this week: [MicroEvent](https://github.com/jeromeetienne/microevent.js) (renamed the functions because I prefer `on`, `off`, `emit` over `bind`, `unbind`, `trigger`, etc.). http-proxy.
 
@@ -61,10 +59,8 @@ To debug node, I've picked up the built-in [debugger](http://nodejs.org/api/debu
 
 I haven't used Firefox dev tools in a while. And to my delightful surprise, it's so much faster than Chrome. Discovered some weird differences between Firefox and Chrome.
 
-```
-if (!window.performance) window.performance = {}
-window.performance = window.performance || {};
-```
+    if (!window.performance) window.performance = {}
+    window.performance = window.performance || {};
 
 The second line is disallowed in Firefox because you can't modify native objects. As a general rule, the first one is better because it doesn't perform an assignment unless necessary. Firefox also used to have a bug where hitting ESC key on a page would cause all WebSocket connection to be closed. Related to that, I keep running into this error that prints out as "Firefox Connection interrupted", and I haven't figured out what's causing that.
 
