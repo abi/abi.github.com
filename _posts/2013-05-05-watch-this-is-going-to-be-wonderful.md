@@ -55,7 +55,7 @@ Arghhh. Fuck this. WHERE THE FUCK IS MY WATCH.
 
 The only reason I slash all my friends (at least, the guys) were going to watch this movie today was because Kerry Washington had been cast as Wonder Woman. I don't even give a fuck about the plot. So. Why don't I just stay home and watch some porn instead? Yeah, I'll just do that. That sounds so much better. Why go out for porn when you have the Internet? Yep.
 
-I announce in the living room that I was going nowhere. My mother doesn't bat an eye. I am furious though with myself for having to cancel. I take out my phone and start texting my friends that I wasn't going to make it as I walk back to my room —
+I announce in the living room that I am going nowhere. My mother doesn't bat an eye. I am furious though with myself for having to cancel. I take out my phone and start texting my friends that I wasn't going to make it as I walk back to my room —
 
 "Watch it!" yells my brother as I nearly crash into him in the hallway.
 
